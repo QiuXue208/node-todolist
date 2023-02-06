@@ -9,7 +9,7 @@
 
 ### 工具库
   1. commander：编写代码来描述您的命令行界面
-  2. inquirer: 交互式命令行用户界面
+  2. inquirer：交互式命令行用户界面
 
 ### 如何上传到npm
   1. 修改package.json文件
@@ -32,7 +32,7 @@
   // 告诉操作系统，使用哪个解释器来执行js文件
   #!/usr/bin/env node
   ```
-  3. 把cli.js加一个可执行权限
+  3. 给cli.js加一个可执行权限
   ```
   chmod +x cli.js
   ```
