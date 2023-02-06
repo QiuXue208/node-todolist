@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { program, Command } = require('commander');
 const { add, clear, show } = require('.');
 const version = require('./package.json').version;
