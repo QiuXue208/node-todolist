@@ -16,7 +16,7 @@
   ```
   {
     // npm包名称
-    "name": "xxx",
+    "name": "todo-list-for-cli",
     // npm包版本
     "version": "1.0.0",
     // td相当于执行node cli.js
@@ -52,7 +52,7 @@
 
   1. 下载todolist npm包
   ```
-  yarn global add node-todolist
+  yarn global add todo-list-for-cli
   ```
   2. 使用node-todolist
   ```
