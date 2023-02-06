@@ -1,5 +1,5 @@
 const { program, Command } = require('commander');
-const { add, clear } = require('.');
+const { add, clear, show } = require('.');
 const version = require('./package.json').version;
 
 program
@@ -21,9 +21,15 @@ program.command('add')
   });
 
 program.command('clear')
-  .description('clear the todo-list')
+  .description('clear the tasks')
   .action(() => {
     clear()
+  });
+
+program.command('show')
+  .description('show all operators')
+  .action(() => {
+    show()
   });
 
 program.parse();
